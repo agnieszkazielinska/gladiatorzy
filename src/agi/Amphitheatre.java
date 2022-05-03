@@ -21,11 +21,10 @@ public class Amphitheatre {
                 licznikAtakow++;
                 gladiator1.takeDamage(gladiator2.getDamage());
             }
-            //TESTOWA ZMIANA
-            System.out.println("Gladiator -> nr1:");
+
+            System.out.println("Wojownik -> nr1:");
             gladiator1.printParms();
-            System.out.println("Gladiator -> nr2:");
-            //TESTOWA ZMIANA
+            System.out.println("Tez wojownik -> nr2:");
             gladiator2.printParms();
             if (gladiator1.getRemainingHealth() < gladiator1.getPunktyZycia() * 0.1) {
                 cezar.judgeDeathOrLife(gladiator1, licznikAtakow);
