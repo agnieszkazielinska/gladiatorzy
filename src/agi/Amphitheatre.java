@@ -21,9 +21,10 @@ public class Amphitheatre {
                 licznikAtakow++;
                 gladiator1.takeDamage(gladiator2.getDamage());
             }
-            System.out.println("Gladiator -> 1:");
+            //TESTOWA ZMIANA
+            System.out.println("Gladiator -> nr1:");
             gladiator1.printParms();
-            System.out.println("Gladiator -> 2:");
+            System.out.println("Gladiator -> nr2:");
             //TESTOWA ZMIANA
             gladiator2.printParms();
             if (gladiator1.getRemainingHealth() < gladiator1.getPunktyZycia() * 0.1) {
